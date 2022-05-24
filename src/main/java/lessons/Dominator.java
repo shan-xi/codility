@@ -51,13 +51,15 @@ public class Dominator {
 
     public static void main(String[] args) {
         Solution s = new Dominator().new Solution();
-        int[] A = {4, 3, 3, 2, 3, -1, 3, 3};
-        System.out.println(s.solution(A));
-        int[] A1 = {2147483647};
-        System.out.println(s.solution(A1));
-        int[] A2 = {1, 1};
-        System.out.println(s.solution(A2));
-        int[] A3 = {2, 1};
-        System.out.println(s.solution(A3));
+//        int[] A = {4, 3, 3, 2, 3, -1, 3, 3};
+//        System.out.println(s.solution(A));
+//        int[] A1 = {2147483647};
+//        System.out.println(s.solution(A1));
+//        int[] A2 = {1, 1};
+//        System.out.println(s.solution(A2));
+//        int[] A3 = {2, 1};
+//        System.out.println(s.solution(A3));
+        int[] A4 = {4, 3, 4, 4, 4, 2};
+        System.out.println(s.solution(A4));
     }
 }
